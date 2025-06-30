@@ -52,4 +52,60 @@ A modern, responsive, and intelligent resume-building platform built with **Type
 
 ## 📂 Project Structure
 esume-builder/ │ ├── public/                     # Static assets ├── src/ │   ├── components/             # Reusable UI components │   ├── templates/              # Resume template files │   ├── pages/                  # Main screens (Login, Dashboard, Preview) │   ├── hooks/                  # Custom hooks │   ├── utils/                  # Helper functions │   ├── services/               # Firebase & Supabase integration │   ├── App.tsx │   └── main.tsx ├── tailwind.config.js ├── tsconfig.json ├── package.json └── README.md
+# 🧠 AI Resume Analyzer
+
+The AI module evaluates:
+- Resume structure and completeness  
+- Keyword density (based on job role)  
+- Action verbs and impact statements  
+- Relevance to job descriptions  
+- Suggestions to improve clarity and ATS-friendliness
+
+---
+
+## 🔐 Authentication
+
+- Built using *Firebase Auth*  
+- Supports login, registration, logout  
+- Ensures users access only their own data  
+- Redirects unauthorized access to login page
+
+---
+
+## 📥 Resume & Report Downloads
+
+- One-click PDF download for both resumes and AI feedback reports  
+- Clean print layout using Tailwind utilities  
+- Fully styled export version independent of screen view
+
+---
+
+## 📈 Future Enhancements
+
+- 🌐 Multi-language support  
+- 💬 Resume chat assistant  
+- 📤 One-click LinkedIn/Indeed integration  
+- 📊 Visual resume statistics dashboard  
+- 🧩 More customizable templates  
+
+---
+
+## 🧑‍💻 Getting Started
+`bash
+git clone https://github.com/harsha33983/resume-project.git
+cd resume-project
+npm install
+npm run dev
+> Replace Firebase and Supabase configs in .env
+
+
+
+
+---
+
+📄 License
+
+MIT License © 2025 [harsha vardhan]
+
+
 
